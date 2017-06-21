@@ -3,6 +3,7 @@ public class Drive implements Car{
 
 	@Override
 	public void turnLeft(String direction) {
+		direction = direction.toUpperCase();
 		System.out.println("Car has turned " + direction);		
 	}
 
